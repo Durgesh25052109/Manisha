@@ -4,3 +4,12 @@ body {
   overflow: hidden;
   background-repeat: no-repeat;
 }
+
+.container {
+  display: flex;
+  flex-direction: column; /* Stack items on small screens */
+  align-items: center;
+  justify-content: center;
+  max-width: 100%; /* Avoid overflow */
+  padding: 10px;
+}
